@@ -1,10 +1,3 @@
 <?php
-
-$servidor = "localhost";
-$usuario = "root";
-$senha = " ";
-$dbname = "tccpetlife";
- 
- $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
-
+    echo "<h1> Olá mundo!</h1>";
  ?>
