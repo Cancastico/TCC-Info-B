@@ -1,14 +1,8 @@
-article {
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  width: 90vw;
-  height: auto;
-  border: 2px solid white;
-  color: white;
-  background-color: black;
-  margin: 4vw auto;
-  border-radius: 17px;
+
+#caixa-termos-de-uso{
+  display: flex;
+  flex-direction: column;
+  margin: 0 2vw;
 }
    
    container {
@@ -50,14 +44,13 @@ article {
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-right: 400px;
-    margin-left: 400px;
-    width: auto;
+    width: 86vw;
     height: auto;
     border: 2px solid white;
     color: white;
     background-color: black;
-
+    margin: 4vw auto;
+    border-radius: 17px;
   }
 
   a{
@@ -67,6 +60,12 @@ article {
     background-color: transparent;
     font-family: 'Quicksand', sans-serif;
     
+  }
+  #shortflix{
+    text-decoration: none;
+  }
+  #shortflix:hover{
+    color: gray;
   }
 
   h3 {
