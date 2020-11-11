@@ -1,83 +1,55 @@
 
-#caixa-termos-de-uso{
+section{
   display: flex;
   flex-direction: column;
-  margin: 0 2vw;
+  width: 40vw;
+  margin: 5vw auto;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 15px;
+  justify-content: space-evenly;
 }
-   
-   container {
-     font-size: small;
-     align-items: center;
-     justify-content: center;
-     color: white;
-     display:flex;
-     flex-direction: row;
- }
- button {
-  
-    padding-right: 5px;
-    border-radius: 3em;
-    float: center;
-    padding: auto;
-    font-family: 'Quicksand', sans-serif;
-    background-color: transparent;
-    size: 1.5em;
-    color: white;
-  }
-  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Quicksand', sans-serif;
-  }
-  h1{
-      text-align: center;
-      width: auto;
-  }
-  label{ 
-    font-family: 'Quicksand' ;
-    align-items: center;
-    justify-content: center;
-    height: auto;
-    margin: auto;
-    font-size: 20px;
-    width: 60%;
-  }
-  article {
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    width: 86vw;
-    height: auto;
-    border: 2px solid white;
-    color: white;
-    background-color: black;
-    margin: 4vw auto;
-    border-radius: 17px;
-  }
+section div{
+  color: white;
+  margin: 0 auto;
+  font-family: arial;
+  flex-direction: row;
+}
+section div label{
+  font-size: 1.3vw;
+}
+section div input{
+  border-radius: 20px;
+  border: 4px solid;
+  height: 2.5vw;
+  outline: 0;
+  font-size: 1.3vw;
+}
+section div input:focus{
+background-color: rgb(209, 209, 209);
+}
+#termos-de-uso{
+  font-size: 1vw;
+  display: flex;
+}
+#termos-de-uso a{
+  text-decoration: none;
+  color: gray;
+}
+#termos-de-uso a:hover{
+  color: rgb(196, 196, 196);
+}
 
-  a{
-      font-size: 20px;
-    color: white;
-    text-shadow: red;
-    background-color: transparent;
-    font-family: 'Quicksand', sans-serif;
-    
-  }
-  #shortflix{
-    text-decoration: none;
-  }
-  #shortflix:hover{
-    color: gray;
-  }
-
-  h3 {
-    padding-top: 30px;
-    padding-bottom: 20px;
-    font-size: 20px ;
-    text-align: left;
-  }
-  h3, p, h2 {
-    font-family: 'Quicksand' ;
-    font-size: 20px;
-    text-align: center;
-    width: auto;
-
-  }
+button {
+  margin: 1vw auto;
+  margin-bottom: 2vw;
+  width: 60%;
+  border-radius: 20px;
+  border: 0px;
+  height: 2vw;
+  color: white;
+  background-color: gray;
+}
+button:hover{
+  background-color: rgb(187, 187, 187);
+}

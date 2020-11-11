@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="../IMG/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="../css/header-footer.css">
-    <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/cad-termo.css">
     <title>Short Flix | LOGIN</title>   
 </head>
@@ -22,31 +21,21 @@
         </div>
 
     </header>
-    <section>
-        <article>
-          <div>
-            <container>
-              <box>
-                <label>Nome</label>
-                <input type="name" name "nome">
-                <label>Email</label>
-                <input type="email" name "email">
-                <br></br>
-                <a  href="termos.html">Termos de uso </a>
-                <input type="checkbox" id="termos" name="termos" value="termos">
-                <br></br>
-              </box>
-               <box>
-                <label>Usuario</label>
-                <input type="name" name "user">
-                <label>Senha</label>
-                <input type="key" name "key">
-                <br></br>
-                <button>Send</button>
-                <br></br>
-               </box>
-              
-            </article>
-      </container>
-        </div>
-      </section>
+<section>
+    <div>
+      <h1>Cadastre-se</h1>
+    </div>
+    <div>
+      <input type="name" name="nome" placeholder="Nome">
+      <input type="name" name="user" placeholder="Usuario">
+    </div>
+    <div>
+      <input type="email" name="email" placeholder="Email">
+      <input type="key" name="key" placeholder="Senha">
+    </div>
+    <div id="termos-de-uso">
+      <p>Ao se cadastrar você concorda com todos os <a  href="termos.html">Termos de uso </a></p>
+      <input type="checkbox" id="termos" name="termos" value="termos">
+    </div>
+    <button type="submit" name="cadastro">Cadastrar</button>
+</section>
