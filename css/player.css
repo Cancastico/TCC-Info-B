@@ -20,14 +20,104 @@
     border-radius: 10px;
     border: 2px solid white;
     outline: 0;
-}#caixa-info{
+}
+#caixa-info {
     display: flex;
     flex-direction: row;
     margin: 1vw 2vw;
 }
-#fundo-usuario{
-    height: 10vw;
-    width: 10vw ;
+#fundo-usuario {
+    margin: 2vw;
+    border: 1px solid white;
+    height: 4vw;
+    width: 4vw;
     background-color: gray;
     border-radius: 50%;
+}
+#imagem-usuario{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 4vw;
+    width: 4vw;
+}
+#icon-usuario{
+    height: 3vw;
+}
+#informacoes-video{
+    width: 100%;
+    margin: 2vw 0;
+    display: flex;
+    color: white;
+    flex-direction: column;
+    align-items: start;
+}
+#informacoes-video p{
+    margin: 0.4vw 0;
+    font-size: 2vw;
+    font-family: arial;
+}
+#informacoes-video a{
+    text-decoration: none;
+    color: white;
+    font-size: 1vw;
+    font-family: arial;
+}
+#informacoes-video a:hover{
+    color: gray;
+}
+#caixa-descricao{
+    margin: 2vw;
+}
+#descricao-texto{
+    color: white;
+    font-size: 1.2vw;
+}
+
+
+/* Caixa videos esquerda */
+#caixa-container{
+    margin: 5vw 0;
+    display: flex;
+}
+.container-section2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.caixa-video{
+    margin: 0 0 1vw 0;
+    width: 20vw;
+    height: 18.3vw;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imagem-video img{
+    margin: 1.4vw;
+    width: 16vw;
+    height: 9.1vw;
+}
+.info-destaques-do-dia{
+    display: flex;
+    flex-direction: column;
+}
+.info-destaques-do-dia .nome-video-info-destaque{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin-bottom: 0.45vw;
+}
+.info-destaques-do-dia .nome-canal-info-destaque{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+.info-destaques-do-dia a:hover{
+    color: rgb(131, 131, 131);
 }
