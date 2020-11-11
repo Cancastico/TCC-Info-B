@@ -14,7 +14,7 @@ $result_usuario = "INSERT INTO usuarios (name, user, email, key) VALUES ('$nome'
 $resultado_usuario = mysqli_query($conn, $result_usuario);
 
 if(mysqli_insert_id($conn)) {
-    header("Location: cadastro.html");
+    header("Location: cadastro.html ");
 } else {
     header("Location: cadastro.html");
 }
