@@ -1,0 +1,83 @@
+article {
+    text-align: center;
+     align-items: center;
+     justify-content: center;
+     margin-right: 400px;
+     margin-left: 400px;
+     border: 2px solid white;
+     color: white;
+     background-color: black;
+ 
+   }
+   
+   container {
+     font-size: small;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     display:flex;
+     flex-direction: row;
+ }
+ button {
+  
+    padding-right: 5px;
+    border-radius: 3em;
+    float: center;
+    padding: auto;
+    font-family: 'Quicksand', sans-serif;
+    background-color: transparent;
+    size: 1.5em;
+    color: white;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Quicksand', sans-serif;
+  }
+  h1{
+      text-align: center;
+      width: auto;
+  }
+  label{ 
+    font-family: 'Quicksand' ;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+    font-size: 20px;
+    width: 60%;
+  }
+  article {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-right: 400px;
+    margin-left: 400px;
+    width: auto;
+    height: auto;
+    border: 2px solid white;
+    color: white;
+    background-color: black;
+
+  }
+
+  a{
+      font-size: 20px;
+    color: white;
+    text-shadow: red;
+    background-color: transparent;
+    font-family: 'Quicksand', sans-serif;
+    
+  }
+
+  h3 {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 20px ;
+    text-align: left;
+  }
+  h3, p, h2 {
+    font-family: 'Quicksand' ;
+    font-size: 20px;
+    text-align: center;
+    width: auto;
+
+  }
