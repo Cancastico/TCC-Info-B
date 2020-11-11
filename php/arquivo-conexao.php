@@ -3,7 +3,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = " ";
-$dbname = "tccpetlife";
+$dbname = "usuarios";
  
  $conn = mysqli_connect($servidor, $usuario, $senha, $dbname);
 
