@@ -1,0 +1,222 @@
+/* SECTION 1*/
+.section{
+    display: flex;
+    flex-direction: column;
+    width: 86vw;
+    margin: 0 auto;
+    color: white;
+}
+#titulo-curta{
+    margin-left: 10%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3vw;
+}
+#curta-da-semana{
+    align-items: center;
+}
+#caixa-imagem-section1{
+    width: 20vw;
+    height: 9.2vw;
+    position: initial;
+    background-color: black;
+    padding: 4%;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#imagem-thumbnail-curta-da-semana{
+    align-self: center;
+    height: 9.6vw;
+    width: 15vw;
+    background-image: url(../IMG/thumbnail.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#caixa-info-video-sec1{
+    width:80%;
+    height: 15vw;
+    background-color: black;
+    border: 3px solid white;
+    border-left: 0px;
+    border-radius: 0 10px 10px 0;
+}
+.link-videos{
+    text-decoration: none;
+    color: white;
+    font-family: arial,sans-serif;
+    margin: 1vw;
+}
+#link-video{
+    font-size: 2.3vw;
+}
+#link-video:hover{
+    color: rgb(207, 206, 206);
+}
+#link-canal{
+    font-size: 1.15vw;
+    align-self: flex-end;
+}
+#link-canal:hover{
+    color: rgb(207, 206, 206);
+}
+#descricao-video-sec1{
+    font-family: arial;
+    font-size: 1vw;
+    margin: 2vw;
+}
+
+
+/* SECTION 2 */
+#header-sec-2{
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+#header-sec-2 p{
+    font-size: 2.3vw;
+    margin-left: 10%;
+}
+#header-sec-2 a{
+    margin: 0 5vw;
+    display: flex;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: black;
+    font-size: 0.9vw;
+    color: white;
+    height: 1.83vw;
+    width: 6vw;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#header-sec-2 a:hover{
+    border: 2px solid white;
+    background-color: rgb(134, 134, 134);
+}
+
+.container-section2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.caixa-video{
+    width: 20vw;
+    height: 18.3vw;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imagem-video img{
+    margin: 1.4vw;
+    width: 16vw;
+    height: 9.1vw;
+}
+.info-destaques-do-dia{
+    display: flex;
+    flex-direction: column;
+}
+.info-destaques-do-dia .nome-video-info-destaque{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    margin-bottom: 0.45vw;
+}
+.info-destaques-do-dia .nome-canal-info-destaque{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+}
+.info-destaques-do-dia a:hover{
+    color: rgb(131, 131, 131);
+}
+
+/* SEC3 */
+
+#section3{
+    background-color: black;
+    border: 2px solid white;
+    margin: 2vw auto;
+    border-radius: 10px;
+}
+#header-sec3{
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif
+}
+#header-sec3 p{
+    font-size: 2.3vw;
+    margin-left: 10%;
+}
+#header-sec3 a{
+    margin: 0 5vw;
+    display: flex;
+    text-decoration: none;
+    border: 2px solid white;
+    background-color: black;
+    font-size: 0.9vw;
+    color: white;
+    height: 1.83vw;
+    width: 6vw;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#header-sec3 a:hover{
+    border: 2px solid white;
+    background-color: rgb(134, 134, 134);
+}
+.container-imagem-sec3{
+    margin: 2vw 5vw;
+    height: 16.6vw;
+    width: 16.6vw;
+    border: 2px solid white;
+    display: flex;
+}
+.imagem-sec3{
+    margin: auto 0;
+    height: 9.2vw;
+    width: 16.6vw;
+}
+.links-sec3{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+.link-nome-video{
+    margin-right: 2vw;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link-nome-video:hover{
+    color:rgb(134, 134, 134) ;
+}
+.texto-nome-video{
+    margin-right: 2vw;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+}
+.texto-nome-video:hover{
+    color:rgb(134, 134, 134) ;
+}
+.texto-nome-canal{
+    margin-right: 2vw;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+}
+.texto-nome-canal:hover{
+    color:rgb(134, 134, 134) ;
+}
+

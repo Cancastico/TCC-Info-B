@@ -1,0 +1,174 @@
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    overflow-x: hidden;
+    background:url(../IMG/fundo-escuro.png);
+}
+.flexbox-row{
+  display: flex;
+  flex-direction: row;
+}
+.flexbox-column{
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEADER */
+header{
+    width: 100vw;
+    height: 8vw;
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 1px solid white;
+}
+#logo{
+    height: 5vw;
+    width: 5vw;
+    border: 0.3vw;
+    background-image: url(../IMG/logo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.link-header{
+    width: 18vw;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.3vw;
+    margin-left: 4vw;
+    color: white;
+}
+.link-header:hover{
+    transition-property: color;
+    transition-duration: 0,5s;
+    transition-timing-function: linear;
+    color: lightgray;
+}
+#div-busca{
+    height: 5.05vw;
+    padding-left: 5vw;
+}
+#busca{
+    display: flex;
+    flex-direction: row;
+    height: 1.85vw;
+    justify-content: flex-end;
+    margin: 1.85vw 5vw;
+}
+#formulario-pesquisa{
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+#input-busca-texto{
+    width: 15vw;
+    height: 2.3vw;
+    border-radius: 20px 0 0 20px;
+    border: 0;
+    border: 1px solid gray;
+    background-color: white;
+    font-size: 1vw;
+    outline: 0;
+}
+#input-busca-texto:focus{
+  background-color: rgb(216, 216, 216);
+  border: 1px solid gray;
+}
+#input-busca-botao{
+  border-radius: 0px 20px 20px 0px;
+  border: 0;
+  background-color: rgb(92, 92, 92);
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1vw;
+}
+#input-busca-botao:hover{
+  background-color:rgb(134, 134, 134);
+  border: 3px  rgb(46, 45, 45);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#caixa-entradas{
+  text-align: center;
+}
+.entradas{
+  margin: 3px;
+  height: 2.75vw;
+  font-size: 1.05vw;
+  border-radius: 17px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+#entrar{
+  width: 4vw;
+  color: black;
+  background-color: white;
+}
+#entrar:hover{
+background-color: rgb(189, 189, 189);
+}
+#cadastro{
+  color: white;
+  width: 8vw;
+  background-color: rgb(134, 134, 134);
+}
+#cadastro:hover{
+  background-color: rgb(92, 92, 92);
+}
+/* HEADER */
+/* FOOTER */
+#footer{
+    margin-top: auto;
+    height: 4.6vw;
+    padding: 10px;
+    flex-direction: row;
+    background-color: black;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid white;
+  }
+  
+  #footer p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.37vw;
+    color: white;
+  }
+  #SAC{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.37vw;
+    color: white;
+  }
+  #SAC:hover{
+    color: gray;
+  }
+  #icone-facebook{
+    background-image: url(../IMG/facebook.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:2.3vw;
+    width:2.3vw;
+  }
+  #icone-facebook:hover{
+    background-color:rgb(102, 100, 100) ;
+    border-radius: 2px;
+  }
+  #icone-intagram{
+    background-image: url(../IMG/instagram.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:2.3vw;
+    width:2.3vw;
+  }
+  #icone-intagram:hover{
+    background-color:rgb(102, 100, 100) ;
+    border-radius: 8px;
+  }

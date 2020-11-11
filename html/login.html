@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../IMG/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/login.css">
+    <title>Short Flix | LOGIN</title>   
+</head>
+<body>
+    <header>
+        <a href="" id="logo"></a>
+        <a class="link-header" href="/html/home.html">Pagina Inicial</a>
+        <a class="link-header" href="/html/explorar.html">Explorar</a>
+        <div id="div-busca" class="flexbox-row">
+            <form id="formulario-pesquisa" method="POST" action="pesquisar.php" id="busca">
+                <input id="input-busca-texto" type="text" name="pesquisar" placeholder="Pesquise aqui">
+                <input id="input-busca-botao"type="submit" value="Pesquisar" placeholder="Pesquise Aqui">
+            </form>
+        </div>
+
+    </header>
+        <section>
+            <div id="caixa-formulario">
+                <form id="formulario" method="POST" action="cadastro.php">
+                    <div id="dados-formulario" class="flexbox-row">
+                        <label for="">Login</label>
+                        <input class="caixa-dados" type="email" name="login" placeholder="E-mail"><br>
+                        <input class="caixa-dados" type="password" name="senha" placeholder="Senha"><br>    
+                    </div>
+                    <div id="div-login" class="flexbox-row">
+                            <input class="flexbox" type="submit" value="Login" id="login" name="Entrar">
+                    </div>
+                    <div id="cadastro-rec-senha" class="flexbox">
+                            <input type="submit" value="Cadastre-se" id="cadastrar" name="cadastrar">
+                            <a id="recuperação-de-senha"href="recuperação-de-senha.html">Esqueceu a senha?</a>
+                    </div>
+                </form>    
+        </div>
+    </section>
+    <footer >
+        <div id="footer" class="flexbox-row">
+
+                <p>Copyright © 2020 | Pedro.A, Kaue, Pedro.M, Barbara, Luiza</p>
+                <p>E-Mail: projetotccinfob@gmail.com </p>
+                <a id="SAC" href="">SAC</a>   
+                <a class="icone" id="icone-facebook" href="https://www.facebook.com"></a>   
+                <a class="icone" id="icone-intagram" href="https://www.instagram.com"></a> 
+        </div>
+</footer>
+</body>
+</html>
